@@ -1,0 +1,293 @@
+@import url("href=https://fonts.google eapis.com/css2?family=Dancing+S crypt:wight@700&family=Fugaz+0ne &family=Libre+Barcode+39+Extend ed&family=Lobster&family=Noto+S erif&family=Peddana&family=Secu lar+One&display=swap");
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family:sans-serif ;
+    font-size: 25px;
+}
+img{
+    width:100%;
+    height:100%;
+    display: block;
+    
+}
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    padding:50px;
+    perspective: 800px;
+    display:inline;
+}
+.p1,.p2,.p3,.p4{
+    margin-bottom: 20px;
+    box-shadow: gray 2px 5px 10px ;
+}
+.p1{
+    width: 100%;
+    max-width: 98rem;
+    padding: 10px;
+    display: flex;
+    background:url("bg2-1.png")  ,linear-gradient(#d0ffae,#34ede9) ;
+    background-size:1000px;
+    background-position:right;
+align-items: center;
+transform: rotateY(-8deg);
+perspective: 200px;
+height: 52%;
+}
+.p2{
+    width: 100%;
+    max-width: 98rem;
+    padding: 10px;
+    display: flex;
+        background:url("bg2-2.png"),linear-gradient(#fec180,#ff8993) ;
+        background-size:1000px;
+        background-position: center;
+align-items: center;
+transform: rotateY(8deg);
+perspective: 200px;
+height: 52%;
+}
+
+.p3{
+    width: 100%;
+    max-width: 98rem;
+    padding: 10px;
+    display: flex;
+    background:url("bg2-4.png"),linear-gradient(#6681ea,#7e43aa) ;
+       background-size:1000px;
+       background-position: left;
+align-items: center;
+transform: rotateY(-8deg);
+perspective: 200px;
+height: 52%;
+}
+.p4
+{
+    width: 100%;
+    max-width: 98rem;
+    padding: 10px;
+    display: flex;
+    background:url("bg2-3.png"),linear-gradient(#ff839d,#f50b9a) ;
+    background-size:1000px;
+    background-position: bottom;
+align-items: center;
+transform: rotateY(8deg);
+perspective: 200px;
+height: 52%;
+}
+
+#all_pic{
+    
+    box-shadow: rgb(117, 117, 117)1px 5px 15px 0px ;
+}
+.p1pic{
+    border:4px solid rgb(101, 221, 101);
+    
+    max-width: 10rem;
+    height: 10rem;
+    transform:translateX(-5rem) ;
+    transform: rotateY(10deg);
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.p2pic{
+    border:4px solid rgb(231, 109, 71);
+    max-width: 10rem;
+    height: 10rem;
+    transform:translateX(-5rem) ;
+    box-shadow: 2px 2px 30px 2px gray  ;
+    transform: rotateY(-10deg);
+    margin-right: 50px;
+    margin-left: 50px;
+
+}
+.p3pic{
+    border:4px solid rgb(49, 141, 226);
+    
+    max-width: 10rem;
+    height: 10rem;
+    transform:translateX(-5rem) ;
+    box-shadow: 2px 2px 30px 2px gray  ;
+    transform: rotateY(10deg);
+    margin-right: 50px;
+    margin-left: 50px;
+
+}
+.p4pic{
+    border:4px solid rgb(223, 78, 162);
+   
+    max-width: 10rem;
+    height: 10rem;
+    transform:translateX(5rem) ;
+    box-shadow: 2px 2px 30px 2px gray  ;
+    transform: rotateY(-10deg);
+    margin-right: 50px;
+    margin-left: 50px;
+
+
+}
+.p1_heading{
+    display: block;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration:ivory underline;
+    text-shadow: gray 1px 2px 10px;
+    font-size: 40px;
+    font-family: 'Fugaz One', cursive;
+text-decoration: none;
+    color: ivory;
+    margin-bottom: 3%;
+}
+.p1_discription{  
+    display: block;
+    justify-content: center;
+    text-align:center;
+    padding-right:40px;
+    line-height: 30px;
+    margin-bottom: 8%;
+font-family: 'Peddana', serif;
+color: white;
+text-shadow: black -1px 0px 2px,black 0px -1px 2px;
+    font-weight: bold;
+}
+  .p1_discription  a:hover{
+    color:red;    
+  }
+  .p1_discription p a{
+  	font-size: 20px;
+  	font-family: 'Peddana', serif;
+  	font-weight: bold;
+  }
+  
+@media only screen and (max-width:700px){
+   .p1_discription{
+       font-size:20px;
+       text-align:justify
+   }
+   #all_pic{
+       width:300px;
+       height:200px;
+   }
+   img{
+      width:200px;
+       height:200px;
+   }
+}
+@media only screen and (max-width:375px){
+    .whole_post{
+        overflow:hidden;
+        margin:0px;
+        padding:0px;
+    }
+    .p1, .p2, .p3, .p4{
+       width:100%;
+       height:fit-content;
+       display:flex;
+       flex-direction:column;
+       margin:70px 0px;
+       perspective:200px;
+       margin-right:10px;
+       
+        
+    }
+    .p1{
+
+        background:url("bg2-1.png"),linear-gradient(#d0ffae,#34ede9) ;
+        background-size:1000px;
+        background-position:right;
+    }
+    .p2{
+
+        background:url("bg2-2.png"),linear-gradient(#fec180,#ff8993) ;
+        background-size:1000px;
+        background-position: center;
+    }
+    
+    .p2{
+        display:flex;
+        flex-direction:column-reverse;
+    }
+    .p3{
+        
+       background:url("bg2-4.png"),linear-gradient(#6681ea,#7e43aa) ;
+       background-size:1000px;
+       background-position: left;
+    }
+    .p4{
+        display:flex;
+        flex-direction:column-reverse;
+        
+       background:url("bg2-3.png"),linear-gradient(#ff839d,#f50b9a) ;
+       background-size:1000px;
+       background-position: bottom;
+    }
+  .p1 img{
+    	border-image:4px solid red;
+    }
+   .p1_discription{
+       margin-left:0px;
+       margin-right:-30px;
+       font-size:18px;
+
+       text-align:justify;
+       
+   }
+   .p1_discription p a{
+
+  	font-size: 20px;
+
+  	font-family: 'Peddana', serif;
+  	font-weight: bold;
+  }
+   #all_pic{
+       
+    
+       margin-right:70px;
+       width:200px;
+       height:200px;
+       transform:translateY(-60px);
+   }
+   .p1 img{
+       box-shadow:gray -2px -2px 10px 0px;
+      width:200px;
+       height:200px;
+       
+   }
+   .p1_heading{
+       font-size:30px;
+       text-shadow: 2px 2px 5px black;
+       /*border-bottom: 2px solid ivory;*/
+       padding-bottom: 10px;
+      
+     
+       /*box-shadow: 0 2px 1px 0px gray;*/
+       
+   }
+   
+  
+   .p1_discription{
+       margin-top:-30px;
+       text-transform: capitalize;
+   }
+   .p1_discription .readmore {
+       color: white;
+       font: weight 300;
+       font-style: italic;
+       font-family:monospace;
+   }
+   .readmore a{
+       font-weight: bolder;
+       color: red;
+
+   }
+}

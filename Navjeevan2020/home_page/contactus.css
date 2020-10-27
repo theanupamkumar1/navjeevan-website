@@ -1,0 +1,191 @@
+body{color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbarbtn{
+    margin-top:10px !important;
+    }
+footer{
+    margin-top:0px;
+}
+.wc{
+    background: no-repeat linear-gradient(155deg,rgb(216, 57, 195),#2f8ad4);
+    padding-bottom: 20px;
+}
+section h2{
+font-size: 50px;
+text-transform: capitalize;
+text-align: center;
+text-shadow: gray 0 0 10px;
+    
+}
+section p{
+    font-size: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    border-left:orange solid 4px ;
+    background:rgb(253, 179, 42) ;
+    border-right:orange solid 4px ;
+}
+.w_contant .social_c{
+    display: flex;
+    flex-direction:row;
+    text-transform: capitalize;
+    margin:0px 280px;    
+}
+
+.social_c a{
+    margin: 0px 20px;
+    margin-bottom:20px ;
+    text-decoration: none;
+   border: white 4px  solid ;
+   border-radius: 50px;
+}
+.social_c .insta{
+    background-image: linear-gradient(120deg,yellow,red,blue);
+   padding: 10px;
+}
+.social_c .insta:hover{
+color: red;
+background: white;
+border:red solid 4px;
+}
+.social_c .messanger{
+    background:blue;
+    padding: 10px;
+}
+.social_c .messanger:hover{
+background: white;
+border:blue solid 4px;
+color: blue;
+}
+fieldset {
+    width: 500px;
+    height: fit-content;
+    outline-color: white;
+    outline-width:5px;
+    display: flex;
+    justify-self: center;
+    margin: 0px 280px;
+    border: solid white 4px;
+    border-radius: 10px;
+    text-transform: capitalize;
+       
+}
+legend{
+    color:white;
+    font-size: 20px;
+    text-transform: capitalize;
+
+}
+h3{
+    color: white;
+    font-size: 20px;
+    margin: 0px;
+font-family: 'Noto Serif', serif;
+    font-weight: 100;
+}
+input{
+    margin-top: -20px;
+    background: transparent;
+    border:solid transparent ;
+    border-bottom: 2px solid white;
+    width:90%;
+    color: white ;
+font-family: 'Peddana', serif;
+letter-spacing: 1px;
+font-size: 20px;
+}
+ textarea:focus, input:focus{
+    background:transparent ;
+    color: white;
+    border-bottom:orange solid 2px ;
+    outline:none;
+}
+textarea::placeholder,input::placeholder{
+color:whitesmoke;
+text-transform: capitalize;
+font-family: 'Peddana', serif;
+font-size: 20px;
+
+}
+textarea{
+    background: transparent;
+    border: transparent;
+    border-bottom: whitesmoke 2px solid;
+    font-size: 20px;
+}
+.formobile{
+    display:none;
+}
+button{
+    background: transparent;
+    border: solid white 3px;
+    font-size: 20px;
+    color: whitesmoke;
+    padding:5px 20px;
+    outline:none;
+    border-radius: 20px;
+}
+button:active{
+    border: white solid 3px;
+    color: white;
+    background: orange;
+}
+
+
+/* responsive */
+
+@media only screen and (max-width:375px){
+    section h2{
+    font-size: 30px;
+
+    }
+    section p{
+        font-size: 12px;
+        text-align:justify ;
+        background:transparent;
+        border-right: none;
+        border-left:Orange solid 2px;
+        margin-left:10px;
+        
+    }
+    .w_contant .social_c{
+        margin:0px 0px;
+    }
+    .social_c a{
+        margin: 0px 5px;
+        margin-bottom: 20px;
+        padding:0;
+        font-size: 14px;
+       border: white 2px  solid ;
+       border-radius: 20px;
+    }
+    fieldset {
+        width: 10px !important;
+        height: fit-content;
+        margin: 0px 10px;
+        border: solid white 3px;
+        
+    }
+    .formobile{
+        display: inline;
+    }
+    .forpc{
+        display: none;
+    }
+    
+    input{
+        width:95%;
+    }
+    button{
+    	border: solid white 2px;
+    }
+    
+     button:focus{
+     	background: orange;
+     }
+    
+}

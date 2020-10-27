@@ -1,0 +1,265 @@
+/* 
+
+.gcard{
+
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    
+}
+.gc{
+    margin-top: 20px;
+    margin:20px 20px;
+    width: auto;
+    height:auto;
+    padding: 20px;   
+    box-shadow:0 10px 15px 2px rgb(103 99 99) ;
+    align-items: center;
+    border:0px solid transparent;
+    border-radius: 50px 0;
+    background:url("flower2.png"),linear-gradient(155deg,#2f8ad4,rgb(216, 57, 195));
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:contain;
+    
+}
+.gcwlc h1{
+    font-size: 50px;
+    margin-bottom:-1%;
+    text-align: center;
+font-family: 'Dancing Script',cursive;
+    
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 5px 2px 10px black  ;
+    letter-spacing: 5px;
+    
+}
+.gcdis{
+    color:rgb(228, 102, 228);
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 5px black  ;
+    display: flex;
+    font-size: 30px;
+    flex-direction: column;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    width: 1000px;
+    height: 400px;
+}
+h3{
+margin-bottom:10px ;
+text-align: center;
+}
+.gcdis span{
+    text-align: center;
+    color: #5aa9eb;
+    font-weight: bold;
+    padding: 20px;
+}
+ span .rm{
+    border: solid white 4px;
+    padding:10px;
+    border-radius:100px;
+    text-decoration:none;
+    font-size:30px;
+    color:white;
+
+}
+
+
+  span .rm:hover{
+    background:linear-gradient(155deg,#2f8ad4,rgb(216, 57, 195));
+    font-size: 30px;
+    color:white;
+    text-shadow:none;
+}
+
+@media only screen and (max-width:375px){
+
+    .gcard{
+        display: flex;
+        flex-wrap: wrap;
+       max-width:100px;
+        max-height: 500px;
+    }
+    .gc{
+        padding:10px;
+        background-position:center;
+        background-repeat: no-repeat;    
+            background-size:contain;
+            width: fit-content;
+            height: fit-content;
+    }
+     .gcwlc h1{
+         text-shadow:none;
+        font-size: 30px;
+        text-shadow:1px 1px 2px black;
+        margin-bottom:20px;
+    }
+    .gcdis{
+        font-family:serif;
+        font-size:15px;
+        text-shadow:1px 1px 2px black;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    span .rm{
+        font-size:15px;
+        border:2px solid white ;
+    }
+
+} */
+@import url("href=https://fonts.google eapis.com/css2?family=Dancing+S crypt:wight@700&family=Fugaz+0ne &family=Libre+Barcode+39+Extend ed&family=Lobster&family=Noto+S erif&family=Peddana&family=Secu lar+One&display=swap");
+
+
+html{
+    font-family:monospace;
+    font-size: 25px;
+}
+.gcard{
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    
+}
+.gc{
+    margin-top: 20px;
+    margin:20px 20px;
+    width: auto;
+    height:auto;
+    padding: 20px;   
+    box-shadow:0 10px 15px 2px rgb(103 99 99) ;
+    align-items: center;
+    border:0px solid transparent;
+    border-radius: 50px 0;
+    background:url("flower2.png"),linear-gradient(155deg,#2f8ad4,rgb(216, 57, 195));
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:contain;
+    
+}
+.gcwlc h1{
+    font-size: 50px;
+    margin-bottom:-1%;
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 5px 2px 10px black  ;
+    letter-spacing: 5px;
+
+}
+.gcdis{
+    color: rgb(247, 162, 235);
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 2px black ;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+}
+h3{
+margin-bottom:10px ;
+text-align: center;
+font-family: 'Peddana', serif;
+}
+.gcdis span{
+    text-align: center;
+    
+    font-weight: bold;
+    padding: 20px;
+    font-family:'Secular One', sans-serif;
+}
+span .rm{
+    border: solid white 4px;
+    padding:10px;
+    border-radius:100px;
+    text-decoration:none;
+    font-size:30px;
+    color:white;
+
+}
+
+
+  span .rm:hover{
+    background:linear-gradient(155deg,#2f8ad4,rgb(216, 57, 195));
+    font-size: 30px;
+    color:white;
+    text-shadow:none;
+}
+
+
+@media only screen and (max-width:375px){
+
+    .gcard{
+        max-width:100%;
+        max-height:10%;
+    }
+    .gc{
+        padding:10px;
+        background-position:0px;
+        background-size:contain;
+    }
+     .gcwlc h1{
+         text-shadow:none;
+        font-size: 30px;
+        text-shadow:1px 1px 2px black;
+        margin-bottom:20px;
+    }
+    .gcdis{
+        font-family:serif;
+        font-size:15px;
+        text-shadow:1px 1px 2px black;
+
+    }
+    span .rm{
+        font-size:15px;
+        border: 2px solid whitesmoke;
+    }
+    span .rm:hover{
+        font-size:15px;
+    }
+    .h3{
+      font-size: 15px;
+    }
+}
+@media only screen and (max-width:375px){
+
+    .gcard{
+        max-width:100%;
+        max-height:10%;
+    }
+    .gc{
+        padding:10px;
+        background-position:0px;
+        background-size:contain;
+    }
+     .gcwlc h1{
+         text-shadow:none;
+        font-size: 30px;
+        text-shadow:1px 1px 2px black;
+        margin-bottom:20px;
+    }
+    .gcdis{
+        font-family:serif;
+        font-size:15px;
+        text-shadow:1px 1px 2px black;
+
+    }
+    span .rm{
+        font-size:15px;
+        border: 2px solid whitesmoke;
+    }
+    span .rm:hover{
+        font-size:15px;
+    }
+    .h3{
+      font-size: 15px;
+    }
+
+}

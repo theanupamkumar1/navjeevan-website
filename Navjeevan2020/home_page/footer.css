@@ -1,0 +1,306 @@
+
+
+@import url("href=https://fonts.google eapis.com/css2?family=Dancing+S crypt:wight@700&family=Fugaz+0ne &family=Libre+Barcode+39+Extend ed&family=Lobster&family=Noto+S erif&family=Peddana&family=Secu lar+One&display=swap");
+
+
+
+footer{
+    position:relative;
+    margin-top:50px;
+    background: #404041;
+    bottom:0px;
+    width: 100%;
+    height:380px;
+    box-shadow: gray 0px 0px 10px 10px;
+ margin-bottom: 0px;
+    
+}
+.main-contant{
+    display: flex;
+    flex-wrap:wrap;
+    color: white;
+    max-width:100%;
+    height:fit-content;
+}
+a{
+    color:white;
+}
+.main-contant .box{
+    min-width: 300px;
+    flex:1;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    justify-items: center;
+    align-content: center;
+    
+    font-size: 20px;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+    overflow:hidden;
+}
+
+.main-contant .box h2{
+ font-weight: 600;
+ font-family: 'Fugaz One', cursive;
+ padding-bottom:10px ;
+ text-align: center;
+ text-transform: uppercase;
+ border-bottom:#2f8ad4  solid 4px;
+ /* rgb(216, 57, 195) */
+ width: fit-content;
+ display: flex;
+ justify-items: center;
+}
+.main-contant .box ul li{
+    margin-top: 10%;
+    
+    font-size: 20px;
+    font-weight: 200;
+    list-style: none;
+font-family: 'Noto Serif', serif;
+    
+    align-content: center;
+
+}
+
+.main-contant .box span{
+font-size: 20px;
+text-align: center;
+letter-spacing: 0.5px;
+font-family: 'Noto Serif', serif;
+
+justify-content: center;
+}
+main-contant .first ul{
+margin-top:10px;
+}
+.main-contant .first ul li{
+list-style: none;
+text-transform: capitalize;
+font-size:22px;
+text-align: center;
+padding:auto;
+margin-left:-10px ;
+
+}
+.main-contant .first ul li a{
+text-decoration: none;
+}
+
+
+.main-contant .second ul li{
+list-style: none;
+}
+.main-contant .third h2{
+    margin-bottom: 10px;
+}
+.main-contant .third{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.main-contant .third span {
+    margin-top:20px;
+    text-align: justify;
+
+
+}
+
+.main-contant .third span p{
+
+word-spacing: 1px;
+display:inline;
+flex-wrap: wrap;
+text-align: justify;
+}
+.main-contant .third span p a:hover{
+    color: #2f8ad4;
+
+}
+.main-contant .third span p,a{
+    font-family:sans-serif;
+    font-size:20px;
+    text-transform: capitalize;
+    font-weight: 400;
+
+}
+.main-contant .second .as_div{
+    display:flex;
+    justify-items:center;
+}
+ .as_div{
+
+margin-left:0 ;
+text-transform: capitalize;
+align-items: center;
+align-content: center;
+display: flex;
+justify-content: space-around;
+align-items: stretch;
+margin-top:10px;
+}
+
+.as_div h3{
+    border-bottom:solid 3px rgb(216, 57, 195);
+    width:100%;
+    font-weight: 100px;
+    padding:5px;
+font-family: 'Fugaz One', cursive;
+    
+
+}
+.icons_a{
+    margin-right:0;
+    position:relative;
+}
+.icons_s{
+    margin-left: 0;
+}
+.icons_a , .icons_s {
+    text-align: center;
+    
+}
+.icons_a a, .icons_s a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+}
+.icons_a a:hover, .icons_s a:hover{
+border: solid rgb(216, 57, 195);
+border-top-color: transparent;
+border-bottom-color: transparent;
+padding: 0px;
+color:#2f8ad4;
+}
+.main-contant .first a:hover{
+    
+border: solid #2f8ad4 ;
+border-top-color: transparent;
+border-bottom-color: transparent;
+padding: 5px;
+color:rgb(216, 57, 195);
+
+}
+  .copyright{
+    align-content: center;  
+    display:flex;
+    text-align:center;
+    margin-left:35%;
+    flex-wrap: wrap; 
+    text-align: center;
+    font-family:sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size:12px;
+}
+/* media queri foe footer*/
+@media only screen and (max-width:1068px){
+    .copyright{
+        padding-bottom:20px;
+        padding-right:120px;
+        font-size:13px;
+    }
+    
+
+}
+@media only screen and (max-width:375px){
+    footer{
+        bottom:0;
+        margin-bottom:-100px;
+        overflow:hidden;
+        width:fit-content;
+        height:fit-content;
+
+    }
+    .main-contant .box{
+        width:fit-content;
+        height:fit-content;
+       
+    }
+    .main-contant .third{
+        padding-top:-20px;
+    }
+    .main-contant .box h2{
+        font-size:20px;
+        margin-top:10px;
+        margin-bottom:0px;
+}
+.main-contant .second ul li{
+    display:flex;
+    margin-left: -20px ;
+    margin-top:5px;
+}
+
+.main-contant .second h3 {
+    padding-bottom:0px;
+    margin-bottom:-10px;
+    margin-top:20px;
+}
+.main-contant .second h2 {
+    padding-bottom:0px;
+    margin-bottom:-30px;
+      margin-left:30px;
+    text-align:center;
+  
+}
+
+.main-contant .first ul{
+margin-left:10px;
+}
+.main-contant .first h2{
+    margin-left:15px;
+    margin-bottom:-10px;
+}
+.main-contant .first{
+    margin-bottom:10px;
+    padding-bottom:20px;
+}
+.main-contant .first ul li {
+margin-bottom:-10px;
+}
+
+.main-contant .second ul li a{
+    font-size:20px;
+}
+.main-contant .third span p,a{
+    font-size:15px;
+}
+
+.main-contant .second{
+    
+        justify-content: center;
+        margin-bottom:20px;
+        padding-bottom:10px;
+}
+    .copyright{
+        display:flex;
+        flex-wrap:wrap; 
+        margin-right:0px;
+        margin-left:60px;
+        font-size:10px
+        }
+}
+.main-contant .box{
+    border-bottom:#8c8888 solid 1px;
+    padding-top: 10px;
+}
+.main-contant .second .as_div .icons_a {
+margin-right: 20px;
+}
+.main-contant .second .as_div .icons_a ul li{
+
+display:flex;
+flex-direction:column ;
+margin-top: 20px;
+
+}
+.main-contant .second .as_div .icons_s ul li{
+
+    display:flex;
+    flex-direction:column ;
+    margin-top: 20px;
+    
+    }

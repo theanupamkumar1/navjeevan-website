@@ -1,0 +1,145 @@
+#imgbox {
+    display: none;
+}
+
+#imgbox img {
+    position: absolute;
+    z-index: 2;
+    height: 500px;
+    width: 900px;
+    left: 240px;
+    top: 100px;
+    box-shadow: 0px 50px 120px 60px black;
+    border-radius: 20px;
+}
+
+#imgbox img:hover {
+    box-shadow: 0px 50px 120px 0px black;
+    transition: box-shadow 1s;
+    animation: 0.2s ease-in-out 0s marginanime;
+    animation-fill-mode: forwards;
+}
+
+@keyframes marginanime {
+    from {}
+    to {
+        height: 560px;
+        width: 960px;
+        margin-top: -20px;
+        margin-left: -35px;
+    }
+}
+
+#next {
+    position: absolute;
+    z-index: 3;
+    font-size: 90px;
+    color: blueviolet;
+    top: 300px;
+    right: 100px;
+    background: transparent;
+    border: none;
+    filter: drop-shadow(-6px 0px 3px aqua);
+}
+
+#back {
+    position: absolute;
+    z-index: 3;
+    font-size: 90px;
+    color: blueviolet;
+    top: 300px;
+    left: 86px;
+    background: transparent;
+    border: none;
+    filter: drop-shadow(6px 0px 3px aqua);
+}
+
+.fa-close {
+    font-size: 80px;
+    top: 40px;
+    left: 1140px;
+    border: none;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 40px;
+    position: fixed;
+    z-index: 6;
+    background: transparent;
+    color: purple;
+    filter: drop-shadow(-10px 15px 10px purple);
+    text-shadow: 3px 6px violet;
+    outline: none;
+}
+
+.fa-close:hover {
+    transition: box-shadow 0.5s;
+    box-shadow: 5px 5px 20px 10px white;
+}
+
+@media only screen and (max-width:360px) {
+    #imgbox img {
+        position: fixed;
+        z-index: 2;
+        height: 200px;
+        width: 300px;
+        left: 25px;
+        top: 100px;
+        box-shadow: 0px 50px 120px 60px black;
+        border-radius: 20px;
+    }
+    #imgbox img:hover {
+        box-shadow: 0px 50px 120px 0px black;
+        transition: box-shadow 1s;
+        animation: 0.2s ease-in-out 0s marginanime;
+        animation-fill-mode: forwards;
+    }
+    @keyframes marginanime {
+        from {}
+        to {
+            height: 240px;
+            width: 320px;
+            margin-top: -20px;
+            margin-left: -10px;
+        }
+    }
+    #next {
+        position: fixed;
+        z-index: 3;
+        font-size: 50px;
+        color: blueviolet;
+        top: 170px;
+        right: 10px;
+        background: transparent;
+        border: none;
+        filter: drop-shadow(-6px 0px 3px aqua);
+    }
+    #back {
+        position: fixed;
+        z-index: 3;
+        font-size: 50px;
+        color: blueviolet;
+        top: 170px;
+        left: 0px;
+        background: transparent;
+        border: none;
+        filter: drop-shadow(6px 0px 3px aqua);
+    }
+    .fa-close {
+        font-size: 40px;
+        top: 70px;
+        left: 310px;
+        border: none;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 40px;
+        position: fixed;
+        z-index: 6;
+        background: transparent;
+        color: purple;
+        outline: none;
+    }
+    .fa-close:hover {
+        filter: drop-shadow(-10px 15px 10px purple);
+        text-shadow: 3px 6px violet;
+        transition: box-shadow 0.5s, filter 0.4s, textshadow 0.4s;
+        box-shadow: 5px 5px 20px 10px white;
+    }
+}

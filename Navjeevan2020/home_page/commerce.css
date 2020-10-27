@@ -1,0 +1,304 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sec{
+    background-color:white;
+}
+.t_pic{
+    max-height:200px ;
+    max-width:200px ;
+}
+h1{
+    font-weight: 600;
+    text-align:left;
+    font-size: 50px;
+    border:solid;
+    color: whitesmoke;
+    background-image: linear-gradient(40deg, #ebe48b,#ff5587);
+    padding: 10px;
+    font-family:sans-serif ;
+    font-style: bold;
+    border-radius: 50px;
+    padding-left: 20px;
+    }
+
+#card{
+    position:flex;
+    width: 300px;
+    height: 400px;
+    transform-style: preserve-3d;
+    perspective: 600px;
+    transition: 0.5s;
+    margin: 10px;
+}
+ #front{
+    position:flex;
+    width: 100%;
+    height: 100%;
+    background:transparent;
+    backface-visibility: hidden;
+    transition: 0.5s;
+    transform: rotatey(0deg);
+}
+.teachers_picture img{
+    margin:50px;
+    border:solid transparent 10px;
+    border-radius: 100%;
+    box-shadow:black 5px 2px 15px 2px;
+    
+}
+
+.teachers_picture h2{
+text-align: center;
+margin-top:-20px;
+margin-bottom:20px;
+
+}
+.teachers_picture h2 a{
+text-transform: capitalize;
+ text-decoration-line: none;
+ font-size:30px;
+ color:#4deeea;
+ text-shadow: black 2px 2px 5px;
+ 
+}
+body{
+    overflow-x: hidden;
+}
+.teachers_picture .t_name{
+border:rgb(91, 211, 201) solid 5px;
+border-radius: 20px;
+
+}
+.teachers_picture .t_sub{
+    padding: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: blue;
+    
+    letter-spacing: .2em;
+
+}
+#card:hover #front{
+    transform: rotatey(-180deg);
+}
+#card #front{
+    justify-items: center;
+    align-content: center;
+}
+#card #back{
+    position: fixed;;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:transparent;
+    transition: 0.5s;
+    transform: rotatey(180deg);
+    backface-visibility:hidden;
+}
+#card:hover #back{
+    transform: rotatey(0deg);
+
+
+}
+#card #back{
+padding: 10px;
+padding-right: 100px;
+padding-top:20px;
+
+}
+#back .details{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: justify;
+    padding: 10px;
+
+
+}
+#back .icons{
+    font-size: 20px;
+    text-decoration-line: none;
+    margin-top: 20px;
+    padding: 10px;
+}
+#back .icons a{
+text-decoration-line: none;
+
+}
+.fa-facebook{
+    color: blue;
+    background-color:white;
+}
+.fa-instagram{
+    color:rgb(247, 96, 154);
+    background-color:white;
+}
+.fa-twitter{
+    color: rgb(157, 227, 255);
+    background-color:white;
+}
+.fa-linkedin{
+    color:rgb(59, 77, 110);
+    background-color:white;
+}
+.fa{
+    display:inline;
+font-size: 20px;
+padding:12px;
+}
+.icons .fa:hover{
+    border: black solid;
+    
+border-top-color: transparent;
+border-bottom-color: transparent;
+
+
+}
+#back h3 {
+    text-align:center;
+    padding-top: 10px;
+    border-radius: 20px;
+    border: black solid;
+    padding: 10px 0px;
+    padding-left: 0px;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+#back h3:hover {
+background-color: black;
+color: white;
+transition: 1s;
+border-color: rgb(146, 142, 142);
+}
+#back h3 a{
+text-decoration-line:none;
+padding: 20px;
+color: black;
+
+}
+#back h3 a:hover{
+color: white;
+}
+
+
+
+
+
+                /* csss for student section*/
+      /*NO NEED OF THIS CODE BECAUSE ABOVE ' TEACHERS SECTION'
+       CODE IS VALIP FOR STUDANTS  SECTION TOO*/ 
+
+
+       .science_students{
+        justify-items: center;
+        display: flex;
+        flex-direction: row;
+        
+        text-transform: capitalize;
+        background-image:linear-gradient(rgb(134, 196, 224),rgb(162, 236, 152)) ;
+        width: 100%;
+        height: fit-content;
+        padding: 10px;
+        
+    }
+    h1{
+    font-weight: 600;
+    text-align:left;
+    font-size: 50px;
+    border:solid;
+    color: whitesmoke;
+    background-image: linear-gradient(40deg, #ebe48b,#ff5587);
+    padding: 10px;
+    font-family:sans-serif ;
+    font-style: bold;
+    border-radius: 20px;
+    padding-left: 20px;
+    }
+    .s_bg_sec{
+        background-color: rgb(134, 196, 224);
+        margin-top: 5px;
+        padding-top: 20px;
+    }
+    
+    
+    .s_section{
+        display: flex;
+        flex-direction: column;
+    }
+    .studnts_name_photo{
+    display: flex;
+    flex-direction: row;
+    margin-left:20px;
+    margin-top:10px;    
+    }
+    /* both column for students name*/
+    .column{
+    margin-left: 10%;
+    }
+    
+    .science_students .studnts_name_photo img{
+    
+    border: white solid 4px;
+    border-radius: 100%;
+    width:100px;
+        height:100px;
+        object-fit: cover;
+    box-shadow: rgb(121, 121, 121) 8px 0px 10px 2px;
+        
+    }
+    .science_students .studnts_name_photo .s_name_div{
+    margin-top: 30px;
+    margin-left:-13px;
+    
+    }
+    .science_students .studnts_name_photo .s1_name_div{
+    margin-top: 30px;
+    margin-left:-13px;
+    
+    }
+    
+    
+    .science_students .studnts_name_photo span{
+    
+    font-size: 22px;
+    
+    }
+    .science_students .studnts_name_photo .s_name_div span a{
+        text-decoration-line: none;
+    font-family: monospace;
+    padding:5px;
+    background-image:linear-gradient(340deg, #48e49b,#4bb2c4);
+    color: white;
+    border: solid 4px white;
+    border-radius:30px;
+    box-shadow: rgb(121, 121, 121) 8px 0px 10px 5px;
+    font-weight: 200;
+    margin:10px;
+    }
+    .science_students .studnts_name_photo .s1_name_div span a{
+        text-decoration-line: none;
+    font-family: monospace;
+    padding:5px;
+    background-image:linear-gradient(340deg, #f88eb1,#c098f3);
+    color: white;
+    border: solid 4px white;
+    border-radius:30px;
+    box-shadow: rgb(121, 121, 121) 8px 0px 10px 5px;
+    font-weight: 200;
+    margin:10px;
+    }
+    .science_students .studnts_name_photo span a:hover{
+    background-image:  linear-gradient(40deg, #ebe48b,#ff5587);
+    
+    }
+    

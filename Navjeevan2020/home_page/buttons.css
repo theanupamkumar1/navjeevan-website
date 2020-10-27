@@ -1,0 +1,58 @@
+@import url("href=https://fonts.google eapis.com/css2?family=Dancing+S crypt:wight@700&family=Fugaz+0ne &family=Libre+Barcode+39+Extend ed&family=Lobster&family=Noto+S erif&family=Peddana&family=Secu lar+One&display=swap");
+
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:20px;    
+}
+
+ .buttons a{ 
+     text-decoration: none;
+    color: white;
+    padding:10px;
+    border: none  ;
+    font-size: 40px;
+    text-transform:capitalize;
+    border-radius: 50px;
+    background-image:linear-gradient(45deg,#2f8ad4,rgb(216, 57, 195));
+    margin: 10px 20px;
+    font-family: 'Noto Serif', serif;
+    margin-left: 40px;
+
+    width:fit-content;
+    height:fit-content;
+    transition: 1s;
+}
+.buttons a:hover{
+    color:rgb(216, 57, 195);
+    background:white;
+    cursor: pointer;
+    border: solid 4px;
+    border-color:#2f8ad4;
+}
+ .b{
+    outline:none;
+    border:solid ;
+    border-color: transparent;
+}
+
+
+@media screen and (max-width:425px ) {
+ .buttons a{
+     font-size:13px ;
+     padding:5px;
+     display: flex;
+     justify-content: space-evenly;
+     margin :1px 2px;
+     font-family: 'Noto Serif', serif;
+     
+ }   
+ .buttons a:hover{
+    border: solid 2px;
+   
+}
+ 
+}
+
+

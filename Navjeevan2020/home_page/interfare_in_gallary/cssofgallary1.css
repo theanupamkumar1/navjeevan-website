@@ -1,0 +1,1506 @@
+body {
+    overflow-X: hidden;
+}
+img{
+	object-fit:cover;
+}
+
+.background {
+    position: fixed;
+    background-image:linear-gradient(340deg,#2f8ad4,rgb(216, 57, 195));
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    overflow-X: hidden;
+    overflow-Y: hidden;
+    z-index: -1;
+    opacity: 1;
+    margin: -10px 0px 0px -10px;
+}
+
+.paragraph p {
+    text-align: center;
+    font-size: 30px;
+    font-family: lobster;
+    color: White;
+    text-shadow: 1px 1px 5px black;
+}
+
+.h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: Pacifico;
+    font-size: 60px;
+    text-shadow: 1px 1px 5px black;
+}
+
+.gallarybox {
+    display: flex;
+    justify-content: center;
+    perspective: 800px;
+}
+
+.wrapper {
+    background:white;
+    margin-top: 80px;
+    width: 1200px;
+    height: fit-contant;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px 4px gray;
+}
+
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8,
+.box9,
+.box0,
+.box11,
+.box12 {
+    display: none;
+}
+
+
+/*css for button for show more */
+
+#btnforshow1 {
+    position: absolute;
+    border: 3px solid indigo;
+    border-radius: 10px;
+    background: transparent;
+    color: black;
+    font-style: italic;
+    z-index: 2;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 25px 0px 0px 440px;
+}
+
+#btnforshow1:hover {
+    border: 3px solid transparent;
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    color: blue;
+    text-shadow: 1px 1px black;
+    transition: background 0.4s, color 0.4s, text-shadow 0.1s;
+}
+
+#btnforshow2 {
+    position: absolute;
+    border: 3px solid indigo;
+    border-radius: 10px;
+    background: transparent;
+    color: black;
+    font-style: italic;
+    z-index: 2;
+    font-size: 40px;
+    display: none;
+    justify-content: center;
+    margin: 25px 0px 0px 440px;
+}
+
+#btnforshow2:hover {
+    border: 3px solid transparent;
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    color: blue;
+    text-shadow: 1px 1px black;
+    transition: background 0.4s, color 0.4s, text-shadow 0.1s;
+}
+
+#btnforshow3 {
+    position: absolute;
+    border: 3px solid indigo;
+    border-radius: 10px;
+    background: transparent;
+    color: black;
+    font-style: italic;
+    z-index: 2;
+    font-size: 40px;
+    display: none;
+    justify-content: center;
+    margin: 30px 0px 0px 440px;
+}
+
+#btnforshow3:hover {
+    border: 3px solid transparent;
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    color: blue;
+    text-shadow: 1px 1px black;
+    transition: background 0.4s, color 0.4s, text-shadow 0.1s;
+}
+
+#btnforshow4 {
+    position: absolute;
+    border: 3px solid indigo;
+    border-radius: 10px;
+    background: transparent;
+    color: black;
+    font-style: italic;
+    z-index: 2;
+    font-size: 40px;
+    display: none;
+    justify-content: center;
+    margin: 30px 0px 0px 440px;
+}
+
+#btnforshow4:hover {
+    border: 3px solid transparent;
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    color: blue;
+    text-shadow: 1px 1px black;
+    transition: background 0.4s, color 0.4s, text-shadow 0.1s;
+}
+
+#btnforshow5 {
+    position: absolute;
+    border: 3px solid indigo;
+    border-radius: 10px;
+    background: transparent;
+    color: black;
+    font-style: italic;
+    z-index: 2;
+    font-size: 40px;
+    display: none;
+    justify-content: center;
+    margin: 30px 0px 0px 440px;
+}
+
+#btnforshow5:hover {
+    border: 3px solid transparent;
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    color: blue;
+    text-shadow: 1px 1px black;
+    transition: background 0.4s, color 0.4s, text-shadow 0.1s;
+}
+
+#btnforshow6 {
+    position: absolute;
+    border: 3px solid indigo;
+    border-radius: 10px;
+    background: transparent;
+    color: black;
+    font-style: italic;
+    z-index: 2;
+    font-size: 40px;
+    display: none;
+    justify-content: center;
+    margin: 30px 0px 0px 440px;
+}
+
+#btnforshow6:hover {
+    border: 3px solid transparent;
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    color: blue;
+    text-shadow: 1px 1px black;
+    transition: background 0.4s, color 0.4s, text-shadow 0.1s;
+}
+
+#btnforshow7 {
+    position: absolute;
+    border: 3px solid indigo;
+    border-radius: 10px;
+    background: transparent;
+    color: black;
+    font-style: italic;
+    z-index: 2;
+    font-size: 40px;
+    display: none;
+    justify-content: center;
+    margin: 30px 0px 0px 440px;
+}
+
+#btnforshow7:hover {
+    border: 3px solid transparent;
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    color: blue;
+    text-shadow: 1px 1px black;
+    transition: background 0.4s, color 0.4s, text-shadow 0.1s;
+}
+
+#btnforshow8 {
+    position: absolute;
+    border: 3px solid indigo;
+    border-radius: 10px;
+    background: transparent;
+    color: black;
+    font-style: italic;
+    z-index: 2;
+    font-size: 40px;
+    display: none;
+    justify-content: center;
+    margin: 30px 0px 0px 440px;
+}
+
+#btnforshow8:hover {
+    border: 3px solid transparent;
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    color: blue;
+    text-shadow: 1px 1px black;
+    transition: background 0.4s, color 0.4s, text-shadow 0.1s;
+}
+
+#btnforshow9 {
+    position: absolute;
+    border: 3px solid indigo;
+    border-radius: 10px;
+    background: transparent;
+    color: black;
+    font-style: italic;
+    z-index: 2;
+    font-size: 40px;
+    display: none;
+    justify-content: center;
+    margin: 30px 0px 0px 440px;
+}
+
+#btnforshow9:hover {
+    border: 3px solid transparent;
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    color: blue;
+    text-shadow: 1px 1px black;
+    transition: background 0.4s, color 0.4s, text-shadow 0.1s;
+}
+
+#btnforshow0 {
+    position: absolute;
+    border: 3px solid indigo;
+    border-radius: 10px;
+    background: transparent;
+    color: black;
+    font-style: italic;
+    z-index: 2;
+    font-size: 40px;
+    display: none;
+    justify-content: center;
+    margin: 30px 0px 0px 440px;
+}
+
+#btnforshow0:hover {
+    border: 3px solid transparent;
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    color: blue;
+    text-shadow: 1px 1px black;
+    transition: background 0.4s, color 0.4s, text-shadow 0.1s;
+}
+
+#btnforshow11 {
+    position: absolute;
+    border: 3px solid indigo;
+    border-radius: 10px;
+    background: transparent;
+    color: black;
+    font-style: italic;
+    z-index: 2;
+    font-size: 40px;
+    display: none;
+    justify-content: center;
+    margin: 30px 0px 0px 440px;
+}
+
+#btnforshow11:hover {
+    border: 3px solid transparent;
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    color: blue;
+    text-shadow: 1px 1px black;
+    transition: background 0.4s, color 0.4s, text-shadow 0.1s;
+}
+
+#btnforshow12 {
+    position: absolute;
+    border: 3px solid indigo;
+    border-radius: 10px;
+    background: transparent;
+    color: black;
+    font-style: italic;
+    z-index: 2;
+    font-size: 40px;
+    display: none;
+    justify-content: center;
+    margin: 30px 0px 0px 440px;
+}
+
+#btnforshow12:hover {
+    border: 3px solid transparent;
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    color: blue;
+    text-shadow: 1px 1px black;
+    transition: background 0.4s, color 0.4s, text-shadow 0.1s;
+}
+
+
+/*for images*/
+
+.a1 img {
+    width: 200px;
+    height: 200px;
+    background: aqua;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 1px gray;
+}
+
+.a2 img {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    margin: 0px 0px 0px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 1px gray;
+}
+
+.a3 img {
+    width: 380px;
+    height: 200px;
+    background: red;
+    margin: -420px 0px 0px 240px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 1px gray;
+}
+
+.a4 img {
+    width: 200px;
+    height: 440px;
+    background: aqua;
+    margin: -200px 0px 0px 240px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 1px gray;
+}
+
+.a5 img {
+    width: 440px;
+    height: 200px;
+    background: lime;
+    margin: -440px 0px 0px 460px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 1px gray;
+}
+
+.a6 img {
+    width: 300px;
+    height: 200px;
+    background: blueviolet;
+    margin: -660px 0px 0px 640px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 1px gray;
+}
+
+.a7 img {
+    width: 220px;
+    height: 200px;
+    background: green;
+    margin: -660px 0px 0px 960px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 1px gray;
+}
+
+.a8 img {
+    width: 260px;
+    height: 440px;
+    background: orange;
+    margin: -440px 0px 0px 920px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 1px gray;
+}
+
+.a9 img {
+    width: 440px;
+    height: 220px;
+    background: violet;
+    margin: -220px 0px 0px 460px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 1px gray;
+}
+
+.a0 img {
+    width: 200px;
+    height: 340px;
+    background: pink;
+    margin: -220px 0px 0px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 1px gray;
+}
+
+.a11 img {
+    width: 200px;
+    height: 280px;
+    background: yellow;
+    margin: 20px 0px 0px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 1px gray;
+}
+
+.a12 img {
+    width: 300px;
+    height: 400px;
+    background: blue;
+    margin: -400px 0px 0px 240px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 1px gray;
+}
+
+.a13 img {
+    width: 300px;
+    height: 200px;
+    background: pink;
+    margin: -200px 0px 0px 560px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 1px gray;
+}
+
+.a14 img {
+    width: 250px;
+    height: 180px;
+    background: gray;
+    margin: -400px 0px 0px 560px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 1px gray;
+}
+
+.a15 img {
+    width: 350px;
+    height: 180px;
+    background: chocolate;
+    margin: -400px 0px 0px 830px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 1px gray;
+}
+
+.a16 img {
+    width: 300px;
+    height: 200px;
+    background: aqua;
+    margin: -200px 0px 0px 880px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 1px gray;
+}
+
+.a17 {
+    display: none;
+}
+
+@media only screen and (max-width:1300px) {
+    .wrapper {
+        width: 1100px
+    }
+    .paragraph p {
+        font-size: 28px;
+    }
+    .h1 {
+        font-size: 46px;
+    }
+    .a1 img {
+        width: 180px;
+        height: 200px;
+        background: aqua;
+        margin: 20px;
+    }
+    .a2 img {
+        width: 180px;
+        height: 200px;
+        background: white;
+        margin: 0px 0px 0px 20px;
+    }
+    .a3 img {
+        width: 380px;
+        height: 200px;
+        background: aqua;
+        margin: -420px 0px 0px 220px;
+    }
+    .a4 img {
+        width: 200px;
+        height: 440px;
+        background: black;
+        margin: -200px 0px 0px 220px;
+        border-radius: 10px;
+    }
+    .a5 img {
+        width: 380px;
+        height: 200px;
+        background: blue;
+        margin: -440px 0px 0px 440px;
+    }
+    .a6 img {
+        width: 220px;
+        height: 200px;
+        background: red;
+        margin: -660px 0px 0px 620px;
+    }
+    .a7 img {
+        width: 220px;
+        height: 200px;
+        background: yellow;
+        margin: -660px 0px 0px 860px;
+    }
+    .a8 img {
+        width: 240px;
+        height: 440px;
+        background: green;
+        margin: -440px 0px 0px 840px;
+    }
+    .a9 img {
+        width: 380px;
+        height: 220px;
+        background: gray;
+        margin: -220px 0px 0px 440px;
+    }
+    .a0 img {
+        width: 180px;
+        height: 340px;
+        background: orange;
+        margin: -220px 0px 0px 20px;
+    }
+    .a11 img {
+        width: 180px;
+        height: 300px;
+        background: lime;
+        margin: 20px 0px 0px 20px;
+    }
+    .a12 img {
+        width: 280px;
+        height: 420px;
+        background: gray;
+        margin: -420px 0px 0px 220px;
+    }
+    .a13 img {
+        width: 270px;
+        height: 200px;
+        background: violet;
+        margin: -200px 0px 0px 520px;
+    }
+    .a14 img {
+        width: 230px;
+        height: 200px;
+        background: pink;
+        margin: -420px 0px 0px 520px;
+    }
+    .a15 img {
+        width: 310px;
+        height: 200px;
+        background: orange;
+        margin: -420px 0px 0px 770px;
+    }
+    .a16 img {
+        width: 270px;
+        height: 200px;
+        background: aqua;
+        margin: -200px 0px 0px 810px;
+    }
+    .a17 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:1150px) {
+    .wrapper {
+        width: 900px;
+        height: 1500px;
+    }
+    .paragraph p {
+        font-size: 25px;
+    }
+    .h1 {
+        font-size: 40px;
+    }
+    .a1 img {
+        width: 160px;
+        height: 180px;
+        background: red;
+        margin: 20px;
+    }
+    .a2 img {
+        width: 160px;
+        height: 180px;
+        background: gray;
+        margin: 0px 0px 0px 20px;
+    }
+    .a3 img {
+        width: 380px;
+        height: 200px;
+        background: aqua;
+        margin: -380px 0px 0px 200px;
+    }
+    .a4 img {
+        width: 200px;
+        height: 420px;
+        background: black;
+        margin: -160px 0px 0px 200px;
+    }
+    .a5 img {
+        width: 460px;
+        height: 200px;
+        background: blue;
+        margin: -420px 0px 0px 420px;
+    }
+    .a6 img {
+        width: 280px;
+        height: 200px;
+        background: red;
+        margin: -640px 0px 0px 600px;
+    }
+    .a7 img {
+        width: 220px;
+        height: 200px;
+        background: yellow;
+        margin: -200px 0px 0px 420px;
+    }
+    .a8 img {
+        width: 220px;
+        height: 420px;
+        background: green;
+        margin: -200px 0px 0px 660px;
+    }
+    .a9 img {
+        width: 440px;
+        height: 200px;
+        background: gray;
+        margin: -200px 0px 0px 200px;
+    }
+    .a0 img {
+        width: 160px;
+        height: 340px;
+        background: orange;
+        margin: -460px 0px 0px 20px;
+    }
+    .a11 img {
+        width: 160px;
+        height: 360px;
+        background: lime;
+        margin: -100px 0px 0px 20px;
+    }
+    .a12 img {
+        width: 280px;
+        height: 240px;
+        background: aqua;
+        margin: -240px 0px 0px 200px;
+    }
+    .a13 img {
+        width: 380px;
+        height: 240px;
+        background: violet;
+        margin: -240px 0px 0px 500px;
+    }
+    .a14 img {
+        width: 240px;
+        height: 280px;
+        background: brown;
+        margin: 20px 0px 0px 320px;
+    }
+    .a15 img {
+        width: 280px;
+        height: 280px;
+        background: red;
+        margin: -280px 0px 0px 20px;
+    }
+    .a16 img {
+        width: 300px;
+        height: 280px;
+        background: aqua;
+        margin: -280px 0px 0px 580px;
+    }
+}
+
+@media only screen and (max-width:960px) {
+    .wrapper {
+        width: 700px;
+        height: 2200px;
+    }
+    .a1 img {
+        width: 220px;
+        height: 250px;
+        background: red;
+        margin: 20px;
+    }
+    .a2 img {
+        width: 415px;
+        height: 250px;
+        background: pink;
+        margin: -270px 0px 0px 265px;
+    }
+    .a3 img {
+        width: 400px;
+        height: 250px;
+        background: green;
+        margin: 0px 0px 0px 20px;
+    }
+    .a4 img {
+        width: 240px;
+        height: 250px;
+        background: black;
+        margin: -250px 0px 0px 440px;
+    }
+    .a5 img {
+        width: 220px;
+        height: 250px;
+        background: red;
+        margin: 20px;
+    }
+    .a6 img {
+        width: 415px;
+        height: 250px;
+        background: pink;
+        margin: -270px 0px 0px 265px;
+    }
+    .a7 img {
+        width: 400px;
+        height: 250px;
+        background: green;
+        margin: 0px 0px 0px 20px;
+    }
+    .a8 img {
+        width: 240px;
+        height: 250px;
+        background: black;
+        margin: -250px 0px 0px 440px;
+    }
+    .a9 img {
+        width: 220px;
+        height: 250px;
+        background: red;
+        margin: 20px;
+    }
+    .a0 img {
+        width: 415px;
+        height: 250px;
+        background: pink;
+        margin: -270px 0px 0px 265px;
+    }
+    .a11 img {
+        width: 400px;
+        height: 250px;
+        background: green;
+        margin: 0px 0px 0px 20px;
+    }
+    .a12 img {
+        width: 240px;
+        height: 250px;
+        background: black;
+        margin: -250px 0px 0px 440px;
+    }
+    .a13 img {
+        width: 220px;
+        height: 250px;
+        background: red;
+        margin: 20px;
+    }
+    .a14 img {
+        width: 415px;
+        height: 250px;
+        background: pink;
+        margin: -270px 0px 0px 265px;
+    }
+    .a15 img {
+        width: 400px;
+        height: 250px;
+        background: green;
+        margin: 0px 0px 0px 20px;
+    }
+    .a16 img {
+        width: 240px;
+        height: 250px;
+        background: black;
+        margin: -250px 0px 0px 440px;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .wrapper {
+        width: 600px;
+        height: 2340;
+    }
+    .paragraph p {
+        font-size: 20px;
+    }
+    .h1 {
+        font-size: 35px;
+    }
+    .a1 img {
+        width: 200px;
+        height: 250px;
+        background: red;
+        margin: 20px;
+    }
+    .a2 img {
+        width: 330px;
+        height: 250px;
+        background: pink;
+        margin: -270px 0px 0px 250px;
+    }
+    .a3 img {
+        width: 200px;
+        height: 250px;
+        background: red;
+        margin: 20px;
+    }
+    .a4 img {
+        width: 330px;
+        height: 250px;
+        background: pink;
+        margin: -270px 0px 0px 250px;
+    }
+    .a5 img {
+        width: 200px;
+        height: 250px;
+        background: red;
+        margin: 20px;
+    }
+    .a6 img {
+        width: 330px;
+        height: 250px;
+        background: pink;
+        margin: -270px 0px 0px 250px;
+    }
+    .a7 img {
+        width: 200px;
+        height: 250px;
+        background: red;
+        margin: 20px;
+    }
+    .a8 img {
+        width: 330px;
+        height: 250px;
+        background: pink;
+        margin: -270px 0px 0px 250px;
+    }
+    .a9 img {
+        width: 200px;
+        height: 250px;
+        background: red;
+        margin: 20px;
+    }
+    .a0 img {
+        width: 330px;
+        height: 250px;
+        background: pink;
+        margin: -270px 0px 0px 250px;
+    }
+    .a11 img {
+        width: 200px;
+        height: 250px;
+        background: red;
+        margin: 20px;
+    }
+    .a12 img {
+        width: 330px;
+        height: 250px;
+        background: pink;
+        margin: -270px 0px 0px 250px;
+    }
+    .a13 img {
+        width: 200px;
+        height: 250px;
+        background: red;
+        margin: 20px;
+    }
+    .a14 img {
+        width: 330px;
+        height: 250px;
+        background: pink;
+        margin: -270px 0px 0px 250px;
+    }
+    .a15 img {
+        width: 200px;
+        height: 250px;
+        background: red;
+        margin: 20px;
+    }
+    .a16 img {
+        width: 330px;
+        height: 250px;
+        background: pink;
+        margin: -270px 0px 0px 250px;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    .wrapper {
+        width: 550px;
+        height: 2340px;
+    }
+    .paragraph p {
+        font-size: 18px;
+    }
+    .h1 {
+        font-size: 32px;
+    }
+    .a1 img {
+        width: 240px;
+        height: 250px;
+        background: red;
+        margin: 20px;
+    }
+    .a2 img {
+        width: 240px;
+        height: 250px;
+        background: pink;
+        margin: -270px 0px 0px 290px;
+    }
+    .a3 img {
+        width: 240px;
+        height: 250px;
+        background: red;
+        margin: 20px;
+    }
+    .a4 img {
+        width: 240px;
+        height: 250px;
+        background: pink;
+        margin: -270px 0px 0px 290px;
+    }
+    .a5 img {
+        width: 240px;
+        height: 250px;
+        background: red;
+        margin: 20px;
+    }
+    .a6 img {
+        width: 240px;
+        height: 250px;
+        background: pink;
+        margin: -270px 0px 0px 290px;
+    }
+    .a7 img {
+        width: 240px;
+        height: 250px;
+        background: red;
+        margin: 20px;
+    }
+    .a8 img {
+        width: 240px;
+        height: 250px;
+        background: pink;
+        margin: -270px 0px 0px 290px;
+    }
+    .a9 img {
+        width: 240px;
+        height: 250px;
+        background: red;
+        margin: 20px;
+    }
+    .a0 img {
+        width: 240px;
+        height: 250px;
+        background: pink;
+        margin: -270px 0px 0px 290px;
+    }
+    .a11 img {
+        width: 240px;
+        height: 250px;
+        background: red;
+        margin: 20px;
+    }
+    .a12 img {
+        width: 240px;
+        height: 250px;
+        background: pink;
+        margin: -270px 0px 0px 290px;
+    }
+    .a13 img {
+        width: 240px;
+        height: 250px;
+        background: red;
+        margin: 20px;
+    }
+    .a14 img {
+        width: 240px;
+        height: 250px;
+        background: pink;
+        margin: -270px 0px 0px 290px;
+    }
+    .a15 img {
+        width: 240px;
+        height: 250px;
+        background: red;
+        margin: 20px;
+    }
+    .a16 img {
+        width: 240px;
+        height: 250px;
+        background: pink;
+        margin: -270px 0px 0px 290px;
+    }
+    .a17 img {
+        width: 240px;
+        height: 250px;
+        background: pink;
+        margin: -270px 0px 0px 290px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 6px 6px violet;
+    }
+}
+
+@media only screen and (max-width:580px) {
+    .wrapper {
+        width: 450px;
+        height: 1940px;
+    }
+    .paragraph p {
+        font-size: 15px;
+    }
+    .h1 {
+        font-size: 30px;
+    }
+    .a1 img {
+        width: 195px;
+        height: 200px;
+        background: red;
+        margin: 20px;
+    }
+    .a2 img {
+        width: 195px;
+        height: 200px;
+        background: pink;
+        margin: -220px 0px 0px 240px;
+    }
+    .a3 img {
+        width: 195px;
+        height: 200px;
+        background: red;
+        margin: 20px;
+    }
+    .a4 img {
+        width: 195px;
+        height: 200px;
+        background: pink;
+        margin: -220px 0px 0px 240px;
+    }
+    .a5 img {
+        width: 195px;
+        height: 200px;
+        background: red;
+        margin: 20px;
+    }
+    .a6 img {
+        width: 195px;
+        height: 200px;
+        background: pink;
+        margin: -220px 0px 0px 240px;
+    }
+    .a7 img {
+        width: 195px;
+        height: 200px;
+        background: red;
+        margin: 20px;
+    }
+    .a8 img {
+        width: 195px;
+        height: 200px;
+        background: pink;
+        margin: -220px 0px 0px 240px;
+    }
+    .a9 img {
+        width: 195px;
+        height: 200px;
+        background: red;
+        margin: 20px;
+    }
+    .a0 img {
+        width: 195px;
+        height: 200px;
+        background: pink;
+        margin: -220px 0px 0px 240px;
+    }
+    .a11 img {
+        width: 195px;
+        height: 200px;
+        background: red;
+        margin: 20px;
+    }
+    .a12 img {
+        width: 195px;
+        height: 200px;
+        background: pink;
+        margin: -220px 0px 0px 240px;
+    }
+    .a13 img {
+        width: 195px;
+        height: 200px;
+        background: red;
+        margin: 20px;
+    }
+    .a14 img {
+        width: 195px;
+        height: 200px;
+        background: pink;
+        margin: -220px 0px 0px 240px;
+    }
+    .a15 img {
+        width: 195px;
+        height: 200px;
+        background: red;
+        margin: 20px;
+    }
+    .a16 img {
+        width: 195px;
+        height: 200px;
+        background: pink;
+        margin: -220px 0px 0px 240px;
+    }
+    .a17 img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .wrapper {
+        width: 400px
+    }
+    .paragraph p {
+        font-size: 13px;
+    }
+    .h1 {
+        font-size: 28px;
+    }
+    .a1 img {
+        width: 165px;
+        height: 200px;
+        background: red;
+        margin: 20px;
+    }
+    .a2 img {
+        width: 165px;
+        height: 200px;
+        background: pink;
+        margin: -220px 0px 0px 210px;
+    }
+    .a3 img {
+        width: 165px;
+        height: 200px;
+        background: red;
+        margin: 20px;
+    }
+    .a4 img {
+        width: 165px;
+        height: 200px;
+        background: pink;
+        margin: -220px 0px 0px 210px;
+    }
+    .a5 img {
+        width: 165px;
+        height: 200px;
+        background: red;
+        margin: 20px;
+    }
+    .a6 img {
+        width: 165px;
+        height: 200px;
+        background: pink;
+        margin: -220px 0px 0px 210px;
+    }
+    .a7 img {
+        width: 165px;
+        height: 200px;
+        background: red;
+        margin: 20px;
+    }
+    .a8 img {
+        width: 165px;
+        height: 200px;
+        background: pink;
+        margin: -220px 0px 0px 210px;
+    }
+    .a9 img {
+        width: 165px;
+        height: 200px;
+        background: red;
+        margin: 20px;
+    }
+    .a0 img {
+        width: 165px;
+        height: 200px;
+        background: pink;
+        margin: -220px 0px 0px 210px;
+    }
+    .a11 img {
+        width: 165px;
+        height: 200px;
+        background: red;
+        margin: 20px;
+    }
+    .a12 img {
+        width: 165px;
+        height: 200px;
+        background: pink;
+        margin: -220px 0px 0px 210px;
+    }
+    .a13 img {
+        width: 165px;
+        height: 200px;
+        background: red;
+        margin: 20px;
+    }
+    .a14 img {
+        width: 165px;
+        height: 200px;
+        background: pink;
+        margin: -220px 0px 0px 210px;
+    }
+    .a15 img {
+        width: 165px;
+        height: 200px;
+        background: red;
+        margin: 20px;
+    }
+    .a16 img {
+        width: 165px;
+        height: 200px;
+        background: pink;
+        margin: -220px 0px 0px 210px;
+    }
+}
+
+@media only screen and (max-width:444px) {
+    .wrapper {
+        width: 350px;
+        height: 1600px;
+    }
+    .paragraph p {
+        font-size: 13px;
+    }
+    .h1 {
+        font-size: 28px;
+    }
+    .a1 img {
+        width: 145px;
+        height: 160px;
+        background: red;
+        margin: 20px;
+    }
+    .a2 img {
+        width: 145px;
+        height: 160px;
+        background: pink;
+        margin: -180px 0px 0px 190px;
+    }
+    .a3 img {
+        width: 145px;
+        height: 160px;
+        background: red;
+        margin: 20px;
+    }
+    .a4 img {
+        width: 145px;
+        height: 160px;
+        background: pink;
+        margin: -180px 0px 0px 190px;
+    }
+    .a5 img {
+        width: 145px;
+        height: 160px;
+        background: red;
+        margin: 20px;
+    }
+    .a6 img {
+        width: 145px;
+        height: 160px;
+        background: pink;
+        margin: -180px 0px 0px 190px;
+    }
+    .a7 img {
+        width: 145px;
+        height: 160px;
+        background: red;
+        margin: 20px;
+    }
+    .a8 img {
+        width: 145px;
+        height: 160px;
+        background: pink;
+        margin: -180px 0px 0px 190px;
+    }
+    .a9 img {
+        width: 145px;
+        height: 160px;
+        background: red;
+        margin: 20px;
+    }
+    .a0 img {
+        width: 145px;
+        height: 160px;
+        background: pink;
+        margin: -180px 0px 0px 190px;
+    }
+    .a11 img {
+        width: 145px;
+        height: 160px;
+        background: red;
+        margin: 20px;
+    }
+    .a12 img {
+        width: 145px;
+        height: 160px;
+        background: pink;
+        margin: -180px 0px 0px 190px;
+    }
+    .a13 img {
+        width: 145px;
+        height: 160px;
+        background: red;
+        margin: 20px;
+    }
+    .a14 img {
+        width: 145px;
+        height: 160px;
+        background: pink;
+        margin: -180px 0px 0px 190px;
+    }
+    .a15 img {
+        width: 145px;
+        height: 160px;
+        background: red;
+        margin: 20px;
+    }
+    .a16 img {
+        width: 145px;
+        height: 160px;
+        background: pink;
+        margin: -180px 0px 0px 190px;
+    }
+}
+
+@media only screen and (max-width:380px) {
+    .wrapper {
+        width: 300px;
+        height:960px;
+    }
+    .paragraph p {
+        font-size: 20px;
+        font-family: 'Peddana', serif;
+        
+    }
+    .h1 {
+        font-size: 30px;
+        font-family: 'Noto Serif', serif;
+    }
+    
+    .a1 img {
+       width: 70px;
+      height: 80px;
+        background: red;
+        margin: 20px;
+        box-shadow: 0px 0px 6px 1px gray;
+    }
+    .a2 img {
+        width: 110px;
+        height: 60px;
+        background: red;
+        margin-top: -100px;
+        margin-left: 105px;
+        box-shadow: 0px 0px 6px 1px gray;
+    }
+    .a3 img {
+        width: 50px;
+        height: 60px;
+        background: red;
+        margin-top: -100px;
+        margin-left: 230px;
+        box-shadow: 0px 0px 6px 1px gray;
+    }
+    .a4 img {
+        width: 180px;
+        height: 100px;
+        background: red;
+        margin-top: -24px;
+        margin-left: 100px;
+        box-shadow: 0px 0px 6px 1px gray;
+    }
+    .a5 img {
+        width: 65px;
+        height: 80px;
+        background: red;
+        margin-top: -79px;
+        margin-left: 20px;
+        box-shadow: 0px 0px 6px 1px gray;
+    }
+    .a6 img {
+        width: 160px;
+        height: 100px;
+        background: red;
+        margin-top: -4px;
+        margin-left: 20px;
+        box-shadow: 0px 0px 6px 1px gray;
+    }
+    .a7 img {
+        width: 85px;
+        height: 200px;
+        background: red;
+        margin-top: -100px;
+        margin-left: 195px;
+        box-shadow: 0px 0px 6px 1px gray;
+    }
+    .a8 img {
+        width: 60px;
+        height: 84px;
+        background: aqua;
+        margin-top: -104px;
+        margin-left: 20px;
+        box-shadow: 0px 0px 6px 1px gray;
+    }
+    .a9 img {
+        width: 84px;
+        height: 84px;
+        background: aqua;
+        margin-top: -104px;
+        margin-left: 96px;
+        box-shadow: 0px 0px 6px 1px gray;
+    }
+    .a0 img {
+        width: 160px;
+        height: 84px;
+        background: azure;
+        margin-top: -4px;
+        margin-left: 120px;
+        box-shadow: 0px 0px 6px 1px gray;
+    }
+    .a11 img {
+        width: 85px;
+        height: 84px;
+        background: azure;
+        margin-top: -84px;
+        margin-left: 20px;
+        box-shadow: 0px 0px 6px 1px gray;
+    }
+    .a12 img {
+        width: 150px;
+        height: 140px;
+        background: azure;
+        margin-top: -4px;
+        margin-left: 20px;
+        box-shadow: 0px 0px 6px 1px gray;
+    }
+    .a13 img {
+        width: 95px;
+        height: 140px;
+        background: azure;
+        margin-top: -140px;
+        margin-left: 185px;
+        box-shadow: 0px 0px 6px 1px gray;
+    }
+    .a14 img {
+        width: 115px;
+        height: 220px;
+        background: azure;
+        margin-top: -5px;
+        margin-left: 20px;
+        box-shadow: 0px 0px 6px 1px gray;
+    }
+    .a15 img {
+        width: 130px;
+        height: 105px;
+        background: azure;
+        margin-top: -220px;
+        margin-left: 150px;
+        box-shadow: 0px 0px 6px 1px gray;
+    }
+    .a16 img {
+        width: 130px;
+        height: 100px;
+        background: azure;
+        margin-top: -100px;
+        margin-left: 150px;
+        box-shadow: 0px 0px 6px 1px gray;
+    }
+}
